@@ -928,6 +928,7 @@ img {
 
 .checkbox:checked+.check__icon {
     background-color: var(--color-accent);
+    background-size: contain;
     background-origin: content-box;
     border-color: var(--color-accent);
 }
