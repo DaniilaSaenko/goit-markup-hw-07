@@ -865,7 +865,6 @@ img {
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: rgb(117, 117, 117);
-
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
@@ -882,17 +881,13 @@ img {
 .policy {
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .policy label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     font-size: 14px;
     line-height: 1.71;
     color: var(--color-text);
-
 }
 
 .policy__link {
@@ -914,9 +909,9 @@ img {
 }
 
 .check__icon {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     margin: 0;
     width: 16px;
     height: 15px;
@@ -924,6 +919,7 @@ img {
     border-width: 2px;
     border-radius: 2px;
     margin-right: 9px;
+    vertical-align: middle;
 }
 
 .checkbox:checked+.check__icon {
