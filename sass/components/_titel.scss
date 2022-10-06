@@ -1,0 +1,62 @@
+/* Title */
+.title-none {
+    position: absolute;
+    white-space: nowrap;
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+}
+.title,
+.select-features__title,
+.select-team__subtitle,
+.select-projeckt__subtitle {
+    @include font-style(700, 36px, 1.17, $space: 0.03em);
+    margin: 0;
+    color: var(--color-title);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page--poster {
+    color: var(--color-white);
+     @include font-style(900, 44px, 1.36, 0.06em);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer-social__title {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.select-features__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.select-team__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.select-projeckt__subtitle {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
