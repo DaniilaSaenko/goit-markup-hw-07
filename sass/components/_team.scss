@@ -25,3 +25,10 @@
     margin: 0;
     margin-bottom: 16px;
 }
+.select-team__subtitle {
+    @include font-style(500, 16px, 1.19, $space: 0.03em);
+    margin: 0;
+    color: var(--color-title);
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -17,7 +17,7 @@
 }
 
 .site-nav__item:not(:last-child),
-.select-contackt__item:not(:last-child) {
+.select-contact__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -43,19 +43,19 @@
     background-color: var(--color-accent);
 }
 
-.select-contackt {
+.select-contact {
     @include flex-centered;
 }
 
-.select-contackt {
+.select-contact {
     margin-left: auto;
 }
-.contackt--icon {
+.contact--icon {
     margin: 0;
     margin-right: 10px;
 }
 
-.contackt--link {
+.contact--link {
     color: var(--color-text);
 }
 .current {
