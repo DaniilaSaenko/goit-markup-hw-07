@@ -18,11 +18,13 @@
 
 .address-select__item:not(:last-child) {
     margin-bottom: 9px;
-    &:hover, &:focus {
-    color: var(--color-white);
-    text-decoration: none;
-    outline: transparent;        
-    }
+    
+        &:hover,
+        &:focus {
+            color: var(--color-white);
+            text-decoration: none;
+            outline: transparent;
+        }
 }
 
 .footer-social__title {
